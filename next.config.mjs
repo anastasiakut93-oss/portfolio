@@ -1,10 +1,7 @@
-const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-
-let basePath = "";
-if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
-  basePath = `/${repo}`;
-}
+// Custom domain (anastasia-kutina.space) serves the site from the root,
+// so no basePath is needed. Kept as an override in case the site ever
+// moves back to a project-pages subpath (username.github.io/repo).
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH_OVERRIDE || "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
