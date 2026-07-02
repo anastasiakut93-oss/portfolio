@@ -1,18 +1,12 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext } from 'react';
 
-const HostnameContext = createContext();
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+const HostnameContext = createContext(basePath);
 
 export const HostnameProvider = ({ children }) => {
-    const [hostname, setHostname] = useState('');
-
-    useEffect(() => {
-        if (process.browser) {
-            setHostname(window.location.origin);
-        }
-    }, []);
-
     return (
-        <HostnameContext.Provider value={hostname}>
+        <HostnameContext.Provider value={basePath}>
             {children}
         </HostnameContext.Provider>
     );

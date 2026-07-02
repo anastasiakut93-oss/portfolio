@@ -6,15 +6,15 @@ import Link from "next/link";
 import { useStep } from "@/Components/Provider/PageTransitionProvider";
 import WrapAnimateUp from "@/Components/Path/WrapAnimateUp";
 
-const Index = () => {
+const MilanPortraits = () => {
   const originalUrl = useHostname() + "/images/";
   const { step } = useStep();
   return (
     <Fragment>
       <Layout
         step={step}
-        title="Detail Article"
-        description="Detail Article Desc"
+        title="Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma"
+        description="Hubstr — редизайн дизайн-системы на переменных"
         navbar={true}
       >
         <section>
@@ -174,4 +174,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default MilanPortraits;
