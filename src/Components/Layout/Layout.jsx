@@ -28,8 +28,8 @@ const Layout = ({
         <meta name="title" content={title} />
         <meta name="description" content={description} />
 
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="icon" href={originalUrl + "/favicon.ico"} sizes="any" />
+        <link rel="icon" href={originalUrl + "/favicon.png"} type="image/png" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
