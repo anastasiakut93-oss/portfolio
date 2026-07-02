@@ -35,29 +35,13 @@ const Bankruptcy = () => {
             <WrapAnimateUp step={step}>
               <video
                 src={originalUrl + "bankruptcy-cover.mp4"}
-                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[4rem]"
+                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[6rem] md:mb-[8rem]"
                 autoPlay
                 muted
                 loop
                 playsInline
               />
             </WrapAnimateUp>
-
-            <div className="grid grid-cols-1 md:grid-cols-5 mb-[4rem]">
-              <div className="hidden md:block md:col-span-2"></div>
-              <div className="md:col-span-3">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="pt-6">
-                    <p className="text__32 font-bold">Прототип</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">прошёл пользовательское тестирование</p>
-                  </div>
-                  <div className="pt-6">
-                    <p className="text__32 font-bold">Готово</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">к разработке — от концепта до финальных экранов</p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div className="grid grid-cols-1 gap-[6rem] md:gap-[8rem]">
 

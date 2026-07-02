@@ -75,8 +75,9 @@ const Navbar = ({ step = 0 }) => {
               (step > 3 ? "" : "-translate-y-[2rem]")
             }
           >
-            <Link href={"/"} className="text-Mgrayscale_900">
-              ✱ ANASTASIIA
+            <Link href={"/"} className="text-Mgrayscale_900 flex items-center gap-2">
+              <img src={originalUrl + "/favicon.png"} alt="" className="w-4 h-4 rounded-full" />
+              ANASTASIIA
             </Link>
 
             <div className="hidden md:flex items-center gap-4">

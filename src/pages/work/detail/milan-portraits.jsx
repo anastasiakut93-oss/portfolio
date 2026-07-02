@@ -43,7 +43,7 @@ const MilanPortraits = () => {
               />
             </WrapAnimateUp>
 
-            <div className="grid grid-cols-1 md:grid-cols-5 mb-[4rem]">
+            <div className="grid grid-cols-1 md:grid-cols-5 mb-[6rem] md:mb-[8rem]">
               <div className="hidden md:block md:col-span-2"></div>
               <div className="md:col-span-3">
                 <div className="grid grid-cols-2 gap-4">
