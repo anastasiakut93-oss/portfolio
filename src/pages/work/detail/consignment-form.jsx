@@ -5,6 +5,7 @@ import Layout from "@/Components/Layout/Layout";
 import Link from "next/link";
 import { useStep } from "@/Components/Provider/PageTransitionProvider";
 import WrapAnimateUp from "@/Components/Path/WrapAnimateUp";
+import LazyVideo from "@/Components/Path/LazyVideo";
 
 const ConsignmentForm = () => {
   const originalUrl = useHostname() + "/images/";
@@ -34,7 +35,7 @@ const ConsignmentForm = () => {
 
             <WrapAnimateUp step={step}>
               <img
-                src={originalUrl + "consignment-cover.png"}
+                src={originalUrl + "consignment-cover.webp"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[4rem]"
                 alt=""
               />
@@ -94,9 +95,10 @@ const ConsignmentForm = () => {
               </div>
 
               <img
-                src={originalUrl + "consignment-1.png"}
+                src={originalUrl + "consignment-1.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               {/* ЧТО СДЕЛАЛА */}
@@ -118,9 +120,10 @@ const ConsignmentForm = () => {
               </div>
 
               <img
-                src={originalUrl + "consignment-2.png"}
+                src={originalUrl + "consignment-2.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               {/* КАК СТАЛО */}
@@ -159,13 +162,9 @@ const ConsignmentForm = () => {
                   />
                 </div>
               </div>
-              <video
+              <LazyVideo
                 src={originalUrl + "dmp-cover-3.mp4"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
-                autoPlay
-                muted
-                loop
-                playsInline
               />
             </Link>
           </Container>

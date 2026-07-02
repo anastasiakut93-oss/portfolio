@@ -5,6 +5,7 @@ import Layout from "@/Components/Layout/Layout";
 import Link from "next/link";
 import { useStep } from "@/Components/Provider/PageTransitionProvider";
 import WrapAnimateUp from "@/Components/Path/WrapAnimateUp";
+import LazyVideo from "@/Components/Path/LazyVideo";
 
 const AlcoholRetail = () => {
   const originalUrl = useHostname() + "/images/";
@@ -34,7 +35,7 @@ const AlcoholRetail = () => {
 
             <WrapAnimateUp step={step}>
               <img
-                src={originalUrl + "alcohol-retail-cover.png"}
+                src={originalUrl + "alcohol-retail-cover.webp"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[4rem]"
                 alt=""
               />
@@ -78,9 +79,10 @@ const AlcoholRetail = () => {
               </div>
 
               <img
-                src={originalUrl + "alcohol-retail-2.png"}
+                src={originalUrl + "alcohol-retail-2.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -98,9 +100,10 @@ const AlcoholRetail = () => {
               </div>
 
               <img
-                src={originalUrl + "alcohol-retail-3.png"}
+                src={originalUrl + "alcohol-retail-3.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -121,9 +124,10 @@ const AlcoholRetail = () => {
               </div>
 
               <img
-                src={originalUrl + "alcohol-retail-1.png"}
+                src={originalUrl + "alcohol-retail-1.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -161,13 +165,9 @@ const AlcoholRetail = () => {
                   />
                 </div>
               </div>
-              <video
+              <LazyVideo
                 src={originalUrl + "hubstr-cover.mp4"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
-                autoPlay
-                muted
-                loop
-                playsInline
               />
             </Link>
           </Container>

@@ -21,7 +21,7 @@ const BannerContact = () => {
             <a href={"https://t.me/ankutina"} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
               <div className="inline-block">
                 <img
-                  src={originalUrl + "Project image.png"}
+                  src={originalUrl + "Project image.webp"}
                   className="h-[115px] w-auto md:block hidden"
                   alt=""
                 />

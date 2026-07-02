@@ -90,9 +90,10 @@ const KidRide = () => {
               </div>
 
               <img
-                src={originalUrl + "kidride-2.png"}
+                src={originalUrl + "kidride-2.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -116,9 +117,10 @@ const KidRide = () => {
               </div>
 
               <img
-                src={originalUrl + "kidride-1.png"}
+                src={originalUrl + "kidride-1.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -163,6 +165,7 @@ const KidRide = () => {
                 src={originalUrl + "prism-1.png"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
             </Link>
           </Container>

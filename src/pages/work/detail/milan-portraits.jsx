@@ -77,9 +77,10 @@ const MilanPortraits = () => {
               </div>
 
               <img
-                src={originalUrl + "hubstr-3.png"}
+                src={originalUrl + "hubstr-3.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               {/* С ЧЕГО НАЧИНАЛИ */}
@@ -95,9 +96,10 @@ const MilanPortraits = () => {
               </div>
 
               <img
-                src={originalUrl + "hubstr-2.png"}
+                src={originalUrl + "hubstr-2.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               {/* ЧТО СДЕЛАЛА */}
@@ -116,9 +118,10 @@ const MilanPortraits = () => {
               </div>
 
               <img
-                src={originalUrl + "hubstr-1.png"}
+                src={originalUrl + "hubstr-1.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               {/* КАК ЭТО РАБОТАЕТ ТЕПЕРЬ */}
@@ -162,9 +165,10 @@ const MilanPortraits = () => {
                 </div>
               </div>
               <img
-                src={originalUrl + "consignment-cover.png"}
+                src={originalUrl + "consignment-cover.webp"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
             </Link>
           </Container>

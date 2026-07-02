@@ -7,6 +7,7 @@ import Link from "next/link";
 import WrapWork from "@/Components/Path/WrapWork";
 import TextAnimation from "@/Components/Path/TextAnimation";
 import WrapAnimateUp from "@/Components/Path/WrapAnimateUp";
+import LazyVideo from "@/Components/Path/LazyVideo";
 
 const Index = () => {
   const originalUrl = useHostname() + "/images/";
@@ -91,7 +92,7 @@ const Index = () => {
                   }
                 >
                   <img
-                    src={originalUrl + "hero-photo.png"}
+                    src={originalUrl + "hero-photo.webp"}
                     className="w-full object-cover"
                     alt=""
                   />
@@ -119,23 +120,23 @@ const Index = () => {
         </section>
 
         {[
-          { video: "hubstr-cover.mp4", img: "gg1.png", title: "Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma", href: "/work/detail/milan-portraits", desc: "Навела порядок в захламлённых макетах с помощью Claude Code. Адаптация под новый клуб сократилась с 6 часов до 30 минут." },
-          { img: "consignment-cover.png", title: "Редизайн формы бронирования: с 58 полей до 10 обязательных", href: "/work/detail/consignment-form", desc: "Разобралась, что реально нужно на этапе подачи заявки, и сократила форму с 58 полей до 10 обязательных." },
-          { video: "dmp-cover-3.mp4", img: "dmp-cover.jpg", title: "DMP.ONE: CRM для лидогенерации с геймификацией", href: "/work/detail/dmp-one", desc: "Спроектировала CRM с нуля и переделала партнёрский кабинет: вместо голого рейтинга — уровни, миссии и прогресс, который понятен партнёру." },
-          { video: "kidride-cover.mp4", img: "bb1.png", title: "KidRide: приложение для водителей 45+", href: "/work/detail/kidride", desc: "Спроектировала приложение для водителей 45+ на основе глубинных интервью: крупный шрифт, тёмная тема, три действия на весь флоу поездки." },
+          { video: "hubstr-cover.mp4", img: "gg1.webp", title: "Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma", href: "/work/detail/milan-portraits", desc: "Навела порядок в захламлённых макетах с помощью Claude Code. Адаптация под новый клуб сократилась с 6 часов до 30 минут." },
+          { img: "consignment-cover.webp", title: "Редизайн формы бронирования: с 58 полей до 10 обязательных", href: "/work/detail/consignment-form", desc: "Разобралась, что реально нужно на этапе подачи заявки, и сократила форму с 58 полей до 10 обязательных." },
+          { video: "dmp-cover-3.mp4", img: "dmp-cover.webp", title: "DMP.ONE: CRM для лидогенерации с геймификацией", href: "/work/detail/dmp-one", desc: "Спроектировала CRM с нуля и переделала партнёрский кабинет: вместо голого рейтинга — уровни, миссии и прогресс, который понятен партнёру." },
+          { video: "kidride-cover.mp4", img: "bb1.webp", title: "KidRide: приложение для водителей 45+", href: "/work/detail/kidride", desc: "Спроектировала приложение для водителей 45+ на основе глубинных интервью: крупный шрифт, тёмная тема, три действия на весь флоу поездки." },
           { img: "prism-1.png", title: "Сервис, который открывают раз в месяц: как сделать его понятным без инструкции", href: "/work/detail/prism", desc: "Спроектировала MVP сервиса аналитики, который должен работать без инструкции — аудитория открывает его раз в месяц." },
-          { video: "vkfest-cover.mp4", img: "ee2.png", title: "100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024", href: "/work/detail/vkfest", desc: "Обновила мобильное приложение фестиваля под новый фирменный стиль в сжатый срок, держа дизайн в синхроне с параллельно разрабатывавшимся брендингом." },
-          { video: "bankruptcy-cover.mp4", img: "Container.png", title: "Банкротство за несколько шагов: мобильное приложение для сложного процесса", href: "/work/detail/bankruptcy", desc: "Спроектировала мобильное приложение, которое ведёт пользователя через весь процесс банкротства — от договора до завершения процедуры." },
-          { img: "alcohol-retail-cover.png", title: "Два приложения для алкогольной сети: B2C и B2B", href: "/work/detail/alcohol-retail", desc: "Спроектировала два приложения с нуля — B2C для покупателей и B2B для дистрибьютора — с разной логикой под разные задачи." },
+          { video: "vkfest-cover.mp4", img: "ee2.webp", title: "100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024", href: "/work/detail/vkfest", desc: "Обновила мобильное приложение фестиваля под новый фирменный стиль в сжатый срок, держа дизайн в синхроне с параллельно разрабатывавшимся брендингом." },
+          { video: "bankruptcy-cover.mp4", img: "Container.webp", title: "Банкротство за несколько шагов: мобильное приложение для сложного процесса", href: "/work/detail/bankruptcy", desc: "Спроектировала мобильное приложение, которое ведёт пользователя через весь процесс банкротства — от договора до завершения процедуры." },
+          { img: "alcohol-retail-cover.webp", title: "Два приложения для алкогольной сети: B2C и B2B", href: "/work/detail/alcohol-retail", desc: "Спроектировала два приложения с нуля — B2C для покупателей и B2B для дистрибьютора — с разной логикой под разные задачи." },
         ].map(({ img, video, title, href, desc }) => (
           <section key={title}>
             <Container>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <div className="lg:col-span-2">
                   {video ? (
-                    <video src={originalUrl + video} className="w-full aspect-[3/2] object-cover rounded-2xl" autoPlay muted loop playsInline />
+                    <LazyVideo src={originalUrl + video} className="w-full aspect-[3/2] object-cover rounded-2xl" />
                   ) : (
-                    <img src={originalUrl + img} className="w-full aspect-[3/2] object-cover rounded-2xl" alt={title} />
+                    <img src={originalUrl + img} className="w-full aspect-[3/2] object-cover rounded-2xl" alt={title} loading="lazy" />
                   )}
                 </div>
                 <div className="lg:pl-8">

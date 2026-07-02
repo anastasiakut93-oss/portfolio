@@ -5,6 +5,7 @@ import Layout from "@/Components/Layout/Layout";
 import Link from "next/link";
 import { useStep } from "@/Components/Provider/PageTransitionProvider";
 import WrapAnimateUp from "@/Components/Path/WrapAnimateUp";
+import LazyVideo from "@/Components/Path/LazyVideo";
 
 const DmpOne = () => {
   const originalUrl = useHostname() + "/images/";
@@ -60,9 +61,10 @@ const DmpOne = () => {
               </div>
 
               <img
-                src={originalUrl + "dmp-1.png"}
+                src={originalUrl + "dmp-1.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -80,9 +82,10 @@ const DmpOne = () => {
               </div>
 
               <img
-                src={originalUrl + "dmp-2.png"}
+                src={originalUrl + "dmp-2.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -137,13 +140,9 @@ const DmpOne = () => {
                   />
                 </div>
               </div>
-              <video
+              <LazyVideo
                 src={originalUrl + "kidride-cover.mp4"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
-                autoPlay
-                muted
-                loop
-                playsInline
               />
             </Link>
           </Container>

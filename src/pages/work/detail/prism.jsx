@@ -5,6 +5,7 @@ import Layout from "@/Components/Layout/Layout";
 import Link from "next/link";
 import { useStep } from "@/Components/Provider/PageTransitionProvider";
 import WrapAnimateUp from "@/Components/Path/WrapAnimateUp";
+import LazyVideo from "@/Components/Path/LazyVideo";
 
 const Prism = () => {
   const originalUrl = useHostname() + "/images/";
@@ -73,9 +74,10 @@ const Prism = () => {
               </div>
 
               <img
-                src={originalUrl + "prism-3.png"}
+                src={originalUrl + "prism-3.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -93,9 +95,10 @@ const Prism = () => {
               </div>
 
               <img
-                src={originalUrl + "prism-2.png"}
+                src={originalUrl + "prism-2.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -119,9 +122,10 @@ const Prism = () => {
               </div>
 
               <img
-                src={originalUrl + "prism-4.png"}
+                src={originalUrl + "prism-4.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
+                loading="lazy"
               />
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
@@ -159,13 +163,9 @@ const Prism = () => {
                   />
                 </div>
               </div>
-              <video
+              <LazyVideo
                 src={originalUrl + "vkfest-cover.mp4"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
-                autoPlay
-                muted
-                loop
-                playsInline
               />
             </Link>
           </Container>
