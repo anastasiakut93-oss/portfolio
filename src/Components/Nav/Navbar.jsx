@@ -82,7 +82,7 @@ const Navbar = ({ step = 0 }) => {
 
             <div className="hidden md:flex items-center gap-4">
               <a href={"https://t.me/ankutina"} target="_blank" rel="noopener noreferrer">CONTACT</a>
-              <a href={"https://www.dropbox.com/scl/fi/j9fsrdd7vwa8efzaam2zf/CV.pdf?rlkey=zreruxy5fnza4qrk4gdtqej3g&st=m4f1rfwp&dl=0"} target="_blank" rel="noopener noreferrer">
+              <a href={"https://www.dropbox.com/scl/fi/njgqjuctfritzsm14aapn/CV.pdf?rlkey=x6caremxnzggtu5krxqtx6ipd&st=y50aduid&dl=0"} target="_blank" rel="noopener noreferrer">
                 CV
               </a>
             </div>
@@ -112,7 +112,7 @@ const Navbar = ({ step = 0 }) => {
             <a href={"https://t.me/ankutina"} target="_blank" rel="noopener noreferrer" className="text-[32px]">
               CONTACT
             </a>
-            <a href={"https://www.dropbox.com/scl/fi/j9fsrdd7vwa8efzaam2zf/CV.pdf?rlkey=zreruxy5fnza4qrk4gdtqej3g&st=m4f1rfwp&dl=0"} target="_blank" rel="noopener noreferrer" className="text-[32px]">
+            <a href={"https://www.dropbox.com/scl/fi/njgqjuctfritzsm14aapn/CV.pdf?rlkey=x6caremxnzggtu5krxqtx6ipd&st=y50aduid&dl=0"} target="_blank" rel="noopener noreferrer" className="text-[32px]">
               CV
             </a>
 
