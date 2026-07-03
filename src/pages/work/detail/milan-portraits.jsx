@@ -43,7 +43,7 @@ const MilanPortraits = () => {
               />
             </WrapAnimateUp>
 
-            <div className="grid grid-cols-1 md:grid-cols-5 mb-[6rem] md:mb-[8rem]">
+            <div className="grid grid-cols-1 md:grid-cols-5 mb-[3rem] md:mb-[8rem]">
               <div className="hidden md:block md:col-span-2"></div>
               <div className="md:col-span-3">
                 <div className="grid grid-cols-2 gap-4">
@@ -59,7 +59,7 @@ const MilanPortraits = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-[6rem] md:gap-[8rem]">
+            <div className="grid grid-cols-1 gap-[3rem] md:gap-[8rem]">
 
               {/* ЗАДАЧА */}
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">

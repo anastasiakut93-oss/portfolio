@@ -46,9 +46,9 @@ const Index = () => {
               </g>
             </svg>
 
-            <div className="grid md:grid-cols-2 gap-4 mt-[40px] md:mt-[80px]">
+            <div className="grid md:grid-cols-2 gap-4 mt-[20px] md:mt-[80px]">
               <div className="h-full flex flex-wrap">
-                <p className="text-[20px] sm:text-[24px] md:text-[24px] lg:text-[28px] overflow-hidden">
+                <p className="text-[17px] sm:text-[24px] md:text-[24px] lg:text-[28px] overflow-hidden">
                   <span
                     className={
                       "transition-all duration-700 inline-block " +
@@ -84,7 +84,7 @@ const Index = () => {
                   </p>
                 </div>
               </div>
-              <div className="md:mt-0 mt-[100px]">
+              <div className="md:mt-0 mt-[32px]">
                 <div
                   className={
                     "overflow-hidden w-[150px] ss:w-[190px] md:w-[260px] transition-all duration-700 " +
@@ -114,7 +114,7 @@ const Index = () => {
             </div>
 
             <div className="text-center md:hidden">
-              <p className="text__20 opacity-60 w-full mt-[48px]">Листай, чтобы увидеть кейсы</p>
+              <p className="text__20 opacity-60 w-full mt-[24px]">Листай, чтобы увидеть кейсы</p>
             </div>
           </Container>
         </section>

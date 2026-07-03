@@ -36,7 +36,7 @@ const DmpOne = () => {
             <WrapAnimateUp step={step}>
               <video
                 src={originalUrl + "dmp-cover-3.mp4"}
-                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[6rem] md:mb-[8rem]"
+                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[3rem] md:mb-[8rem]"
                 autoPlay
                 muted
                 loop
@@ -44,7 +44,7 @@ const DmpOne = () => {
               />
             </WrapAnimateUp>
 
-            <div className="grid grid-cols-1 gap-[6rem] md:gap-[8rem]">
+            <div className="grid grid-cols-1 gap-[3rem] md:gap-[8rem]">
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">

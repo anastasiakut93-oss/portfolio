@@ -95,7 +95,7 @@ const Navbar = ({ step = 0 }) => {
                   <img src={originalUrl + "/images/Close.svg"} alt="" />
                 </>
               ) : (
-                "MENU"
+                "МЕНЮ"
               )}
             </div>
           </div>
