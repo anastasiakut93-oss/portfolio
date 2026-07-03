@@ -36,7 +36,7 @@ const ConsignmentForm = () => {
             <WrapAnimateUp step={step}>
               <img
                 src={originalUrl + "consignment-cover.webp"}
-                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[4rem]"
+                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[2rem] md:mb-[4rem]"
                 alt=""
               />
             </WrapAnimateUp>

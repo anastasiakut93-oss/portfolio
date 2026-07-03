@@ -77,12 +77,12 @@ const Navbar = ({ step = 0 }) => {
           >
             <Link href={"/"} className="text-Mgrayscale_900 flex items-center gap-2">
               <img src={originalUrl + "/favicon.png"} alt="" className="w-4 h-4 rounded-full" />
-              ANASTASIIA
+              ANASTASIA
             </Link>
 
             <div className="hidden md:flex items-center gap-4">
               <a href={"https://t.me/ankutina"} target="_blank" rel="noopener noreferrer">CONTACT</a>
-              <a href={"#!"} target="_blank">
+              <a href={"https://www.dropbox.com/scl/fi/zqwmzknilav5n7xrut9m2/CV.pdf?rlkey=ok9hupiuz8p166djpa0e7w2jz&st=74vcgxue&dl=0"} target="_blank" rel="noopener noreferrer">
                 CV
               </a>
             </div>
@@ -112,7 +112,7 @@ const Navbar = ({ step = 0 }) => {
             <a href={"https://t.me/ankutina"} target="_blank" rel="noopener noreferrer" className="text-[32px]">
               CONTACT
             </a>
-            <a href={"#!"} target="_blank" className="text-[32px]">
+            <a href={"https://www.dropbox.com/scl/fi/zqwmzknilav5n7xrut9m2/CV.pdf?rlkey=ok9hupiuz8p166djpa0e7w2jz&st=74vcgxue&dl=0"} target="_blank" rel="noopener noreferrer" className="text-[32px]">
               CV
             </a>
 

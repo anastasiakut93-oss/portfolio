@@ -16,7 +16,7 @@ const Index = () => {
   return (
     <Fragment>
       <Layout
-        title="ANASTASIIA KUTINA"
+        title="Anastasia Kutina"
         description="✱ Anastasia Kutina — Product Designer"
         navbar={true}
         useHeight={step >= 3 ? false : true}

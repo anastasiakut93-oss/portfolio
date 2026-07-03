@@ -35,7 +35,7 @@ const MilanPortraits = () => {
             <WrapAnimateUp step={step}>
               <video
                 src={originalUrl + "hubstr-cover.mp4"}
-                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[4rem]"
+                className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[2rem] md:mb-[4rem]"
                 autoPlay
                 muted
                 loop
