@@ -4,7 +4,6 @@ import { Container } from "react-bootstrap";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
-import BackdropFixed from "../Path/BackdropFixed";
 
 const Navbar = ({ step = 0 }) => {
   const originalUrl = useHostname();
@@ -20,53 +19,8 @@ const Navbar = ({ step = 0 }) => {
 
   const [ToogleMenu, setToogleMenu] = useState(false);
 
-  const [ToogleResume, setToogleResume] = useState(false);
-
   return (
     <Fragment>
-      <BackdropFixed
-        status={ToogleResume}
-        onAction={() => setToogleResume(!ToogleResume)}
-      />
-      <div
-        className={
-          "fixed z-[91] w-[90%] ss:w-[390px] bg-white p-[24px] left-1/2 -translate-x-1/2 top-1/2  transition-all duration-300 " +
-          (ToogleResume
-            ? "-translate-y-1/2"
-            : "translate-y-[80%] opacity-0 pointer-events-none")
-        }
-      >
-        <div className="grid grid-cols-1 gap-[24px]">
-          <img
-            src={originalUrl + "/images/Frame 14.png"}
-            className="w-full object-cover"
-            alt=""
-          />
-          <div className="text-center">
-            <h5 className="text__24 mb-2">Get a free resume template!</h5>
-            <p className="text__14 text-[#525252]">
-              Purchase this product today and receive a professionally designed
-              resume, totally free. Perfect to help you stand out in your next
-              application.
-            </p>
-          </div>
-          <div className="text-center">
-            <a
-              href={"#!"}
-              target="_blank"
-              className="px-[24px] py-[10px] rounded-full border !border-Mneutral_900 inline-block"
-            >
-              <div className="flex items-center gap-2">
-                <p className="text__18">Buy now</p>
-                <img
-                  src={originalUrl + "/images/carbon_arrow-up-right.svg"}
-                  alt=""
-                />
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
       <div className="fixed w-full py-4 bg-white z-[80] border-b !border-Mgrayscale_200 lg:!border-none">
         <Container className="overflow-hidden">
           <div

@@ -11,7 +11,7 @@ const BannerContact = () => {
       <section>
         <Container>
           <h4 className="text-[24px] ss:text-[36px] md:text-[46px] lg:text-[64px] xl:text-[80px] text-left">
-            Открыта к новым <br /> возможностям
+            Открыта к новым <br /> возможностям
           </h4>
           <div
             className="flex justify-end py-6"
@@ -61,7 +61,7 @@ const BannerContact = () => {
             </a>
           </div>
           <p className="text__24 opacity-60">
-            Рассматриваю предложения на позицию Product Designer <br />и буду рада обсудить возможное сотрудничество.
+            Рассматриваю предложения на позицию Product Designer <br />и буду рада обсудить возможное сотрудничество.
           </p>
         </Container>
       </section>

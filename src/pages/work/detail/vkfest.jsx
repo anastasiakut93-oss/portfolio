@@ -14,7 +14,7 @@ const VkFest = () => {
     <Fragment>
       <Layout
         step={step}
-        title="100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024"
+        title="100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024"
         description="VK Fest 2024 — мобильное приложение"
         navbar={true}
       >
@@ -24,13 +24,13 @@ const VkFest = () => {
               <Link href={"/"}>
                 <div className="flex items-center gap-2">
                   <img src={originalUrl + "Back.svg"} alt="" />
-                  <p className="opacity-40">На главную</p>
+                  <p className="opacity-40">На главную</p>
                 </div>
               </Link>
             </WrapAnimateUp>
 
             <WrapAnimateUp step={step}>
-              <h2 className="text__64 mt-[2rem]">100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024</h2>
+              <h2 className="text__64 mt-[2rem]">100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024</h2>
             </WrapAnimateUp>
 
             <WrapAnimateUp step={step}>
@@ -44,6 +44,12 @@ const VkFest = () => {
               />
             </WrapAnimateUp>
 
+            <WrapAnimateUp step={step}>
+              <p className="text-[13px] sm:text-[16px] lg:text-[18px] italic opacity-60 text-center w-full mb-[3rem] md:mb-[6rem]">
+                VK Fest — крупнейший музыкальный фестиваль России на платформе ВКонтакте. Мобильное приложение фестиваля с расписанием, сценами и артистами.
+              </p>
+            </WrapAnimateUp>
+
             <div className="grid grid-cols-1 md:grid-cols-5 mb-[3rem] md:mb-[8rem]">
               <div className="hidden md:block md:col-span-2"></div>
               <div className="md:col-span-3">
@@ -54,15 +60,15 @@ const VkFest = () => {
                   </div>
                   <div className="pt-6">
                     <p className="text__32 font-bold">Топ-1</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">в категории «Мероприятия» в Google Play</p>
+                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">в категории «Мероприятия» в Google Play</p>
                   </div>
                   <div className="border-t !border-Mneutral_200 pt-6">
                     <p className="text__32 font-bold">Топ-2</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">в категории «Мероприятия» в App Store</p>
+                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">в категории «Мероприятия» в App Store</p>
                   </div>
                   <div className="border-t !border-Mneutral_200 pt-6">
                     <p className="text__32 font-bold">Топ-35</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">среди всех бесплатных приложений в России</p>
+                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">среди всех бесплатных приложений в России</p>
                   </div>
                 </div>
               </div>
@@ -72,11 +78,11 @@ const VkFest = () => {
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Задача</p>
+                  <p className="text__24 opacity-40">Проблема</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    VK Fest — крупнейший музыкальный фестиваль России на платформе ВКонтакте. Нужно было обновить мобильное приложение под новый фирменный стиль и подтянуть UX. Срок — сжатый.
+                    Нужно было обновить мобильное приложение под новый фирменный стиль и подтянуть UX в сжатый срок. Фестивальное приложение живёт три-четыре дня: скачали, сходили на фест, удалили. Второго шанса на первое впечатление нет — интерфейс должен быть понятным с первого открытия: расписание, сцены, артисты без лишних шагов.
                   </h5>
                 </div>
               </div>
@@ -90,11 +96,11 @@ const VkFest = () => {
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">С чего начинали</p>
+                  <p className="text__24 opacity-40">С чего начала</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Фестивальное приложение живёт три-четыре дня: скачали, сходили на фест, удалили. Второго шанса на первое впечатление нет — интерфейс должен быть понятным с первого открытия: расписание, сцены, артисты без лишних шагов.
+                    Начала с нового фирменного стиля, который разрабатывался параллельно с приложением, — синхронизировала дизайн с брендингом на ходу, хотя условия были не идеальные.
                   </h5>
                 </div>
               </div>
@@ -108,14 +114,11 @@ const VkFest = () => {
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Что сделала</p>
+                  <p className="text__24 opacity-40">Что сделала</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Спроектировала UX и UI под новый фирменный стиль. Он разрабатывался параллельно с приложением, так что дизайн держала в синхроне с брендингом на ходу — не идеальные условия, но по-другому не успевали.
-                  </h5>
-                  <h5 className="text__32">
-                    Провела тестирование макетов и дизайн-ревью с командой.
+                    Спроектировала UX и UI под новый фирменный стиль. Провела тестирование макетов и дизайн-ревью с командой.
                   </h5>
                 </div>
               </div>
@@ -133,7 +136,7 @@ const VkFest = () => {
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Приложение вышло в срок, показатели в сторах оказались сильными. Заказчик подписал контракт на следующий год.
+                    Приложение вышло в срок, показатели в сторах оказались сильными. Заказчик подписал контракт на следующий год.
                   </h5>
                 </div>
               </div>
@@ -143,11 +146,11 @@ const VkFest = () => {
         </section>
         <section>
           <Container>
-            <Link href="/work/detail/bankruptcy" className="group block border-t !border-Mneutral_200 pt-8">
+            <Link href="/work/detail/kidride" className="group block border-t !border-Mneutral_200 pt-8">
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <p className="text__18 opacity-40 mb-2">Следующий проект</p>
-                  <h5 className="text__40">Банкротство за несколько шагов: мобильное приложение для сложного процесса</h5>
+                  <h5 className="text__40">KidRide: приложение для водителей 45+</h5>
                 </div>
                 <div className="relative overflow-hidden w-10 h-10 shrink-0 ml-8">
                   <img
@@ -163,7 +166,7 @@ const VkFest = () => {
                 </div>
               </div>
               <LazyVideo
-                src={originalUrl + "bankruptcy-cover.mp4"}
+                src={originalUrl + "kidride-cover.mp4"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
               />
             </Link>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const TEXT = "Раскладываю макеты и двигаю пиксели...";
+const TEXT = "Делаю сложное простым, а не только двигаю пиксели...";
 
 const InitialLoader = () => {
   const [visible, setVisible] = useState(true);

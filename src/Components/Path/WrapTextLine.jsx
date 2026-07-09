@@ -161,13 +161,13 @@ const ScrollTextReveal = () => {
             <br />
             <span className="overflow-hidden inline-block">
               <span className="inline-block w-max">
-                из Петербурга. E-com, martech, HRtech, SaaS — и ещё пара.
+                из Петербурга. E-com, martech, HRtech, SaaS — и ещё пара.
               </span>
             </span>{" "}
             <br />
             <span className="overflow-hidden inline-block">
               <span className="inline-block w-max">
-                Claude Code и Recraft — работаю с ними каждый день.
+                Claude Code и Recraft — работаю с ними каждый день.
               </span>
             </span>{" "}
             <br />
@@ -178,13 +178,13 @@ const ScrollTextReveal = () => {
           <h5 className="leading-snug mt-6">
             <span className="overflow-hidden inline-block">
               <span className="inline-block w-max">
-                Сейчас ищу B2C-продукт с живыми пользователями
+                Сейчас ищу B2C-продукт с живыми пользователями
               </span>
             </span>{" "}
             <br />
             <span className="overflow-hidden inline-block">
               <span className="inline-block w-max">
-                и задачами, которые не надоедают через месяц.
+                и задачами, которые не надоедают через месяц.
               </span>
             </span>{" "}
           </h5>
@@ -214,7 +214,7 @@ const ScrollTextReveal = () => {
               className="overflow-hidden max-w-[100%] inline-block transition-all duration-300"
             >
               <span className="inline-block w-max">
-                из Петербурга. E-com, martech, HRtech, SaaS — и ещё пара.
+                из Петербурга. E-com, martech, HRtech, SaaS — и ещё пара.
               </span>
             </motion.span>{" "}
             <br />
@@ -224,7 +224,7 @@ const ScrollTextReveal = () => {
               className="overflow-hidden max-w-[100%] inline-block transition-all duration-300"
             >
               <span className="inline-block w-max">
-                Claude Code и Recraft — работаю с ними каждый день.
+                Claude Code и Recraft — работаю с ними каждый день.
               </span>
             </motion.span>{" "}
             <br />
@@ -244,7 +244,7 @@ const ScrollTextReveal = () => {
               className="overflow-hidden max-w-[100%] inline-block transition-all duration-300"
             >
               <span className="inline-block w-max">
-                Сейчас ищу B2C-продукт с живыми пользователями
+                Сейчас ищу B2C-продукт с живыми пользователями
               </span>
             </motion.span>{" "}
             <br />
@@ -254,7 +254,7 @@ const ScrollTextReveal = () => {
               className="overflow-hidden max-w-[100%] inline-block transition-all duration-300"
             >
               <span className="inline-block w-max">
-                и задачами, которые не надоедают через месяц.
+                и задачами, которые не надоедают через месяц.
               </span>
             </motion.span>{" "}
           </h5>

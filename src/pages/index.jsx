@@ -68,20 +68,31 @@ const Index = () => {
                         : "translate-x-[5rem] translate-y-[2rem] opacity-0")
                     }
                   >
-                    с опытом в нагруженных B2B и B2C продуктах.
+                    с опытом в нагруженных B2B и B2C продуктах.
                   </span>
                 </p>
                 <div className="w-full self-end inline-block">
-                  <p
+                  <div
                     className={
-                      "text__20 opacity-60 md:inline-block hidden overflow-hidden transition-all duration-700 " +
+                      "md:inline-block hidden overflow-hidden transition-all duration-700 " +
                       (step > 3 ? "max-w-[100vw]" : "max-w-0")
                     }
                   >
                     <span className="w-max inline-block">
-                      Листай, чтобы увидеть кейсы
+                      <a
+                        href="https://t.me/ankutina"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-3 px-[32px] py-[16px] rounded-full border-2 !border-Mneutral_900"
+                      >
+                        <span className="text__24">Связаться</span>
+                        <div className="relative overflow-hidden w-[22px] h-[22px]">
+                          <img src={originalUrl + "carbon_arrow-up-right copy.svg"} className="absolute top-0 left-0 w-[22px] transition-all duration-300 group-hover:translate-x-full group-hover:-translate-y-full" alt="" />
+                          <img src={originalUrl + "carbon_arrow-up-right copy 2.svg"} className="absolute top-0 left-0 w-[22px] -translate-x-full translate-y-full transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0" alt="" />
+                        </div>
+                      </a>
                     </span>
-                  </p>
+                  </div>
                 </div>
               </div>
               <div className="md:mt-0 mt-[32px]">
@@ -107,27 +118,38 @@ const Index = () => {
                         : "-translate-x-[5rem] translate-y-[2rem] opacity-0")
                     }
                   >
-                    Превращаю сложные сценарии в понятные интерфейсы.
+                    Превращаю сложные сценарии в понятные интерфейсы.
                   </span>
                 </p>
               </div>
             </div>
 
-            <div className="text-center md:hidden">
-              <p className="text__20 opacity-60 w-full mt-[24px]">Листай, чтобы увидеть кейсы</p>
+            <div className="text-center md:hidden mt-[24px]">
+              <a
+                href="https://t.me/ankutina"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-3 px-[32px] py-[16px] rounded-full border-2 !border-Mneutral_900"
+              >
+                <span className="text__24">Связаться</span>
+                <div className="relative overflow-hidden w-[22px] h-[22px]">
+                  <img src={originalUrl + "carbon_arrow-up-right copy.svg"} className="absolute top-0 left-0 w-[22px] transition-all duration-300 group-hover:translate-x-full group-hover:-translate-y-full" alt="" />
+                  <img src={originalUrl + "carbon_arrow-up-right copy 2.svg"} className="absolute top-0 left-0 w-[22px] -translate-x-full translate-y-full transition-all duration-300 group-hover:translate-x-0 group-hover:translate-y-0" alt="" />
+                </div>
+              </a>
             </div>
           </Container>
         </section>
 
         {[
-          { img: "consignment-cover.webp", title: "Редизайн формы бронирования: с 58 полей до 10 обязательных", href: "/work/detail/consignment-form", desc: "Разобралась, что реально нужно на этапе подачи заявки, и сократила форму с 58 полей до 10 обязательных." },
-          { video: "hubstr-cover.mp4", img: "gg1.webp", title: "Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma", href: "/work/detail/milan-portraits", desc: "Навела порядок в захламлённых макетах с помощью Claude Code. Адаптация под новый клуб сократилась с 6 часов до 30 минут." },
-          { img: "alcohol-retail-cover.webp", title: "Два приложения для алкогольной сети: B2C и B2B", href: "/work/detail/alcohol-retail", desc: "Спроектировала два приложения с нуля — B2C для покупателей и B2B для дистрибьютора — с разной логикой под разные задачи." },
-          { video: "bankruptcy-cover.mp4", img: "Container.webp", title: "Банкротство за несколько шагов: мобильное приложение для сложного процесса", href: "/work/detail/bankruptcy", desc: "Спроектировала мобильное приложение, которое ведёт пользователя через весь процесс банкротства — от договора до завершения процедуры." },
-          { img: "prism-1.png", title: "Сервис, который открывают раз в месяц: как сделать его понятным без инструкции", href: "/work/detail/prism", desc: "Спроектировала MVP сервиса аналитики, который должен работать без инструкции — аудитория открывает его раз в месяц." },
-          { video: "dmp-cover-3.mp4", img: "dmp-cover.webp", title: "DMP.ONE: CRM для лидогенерации с геймификацией", href: "/work/detail/dmp-one", desc: "Спроектировала CRM с нуля и переделала партнёрский кабинет: вместо голого рейтинга — уровни, миссии и прогресс, который понятен партнёру." },
-          { video: "vkfest-cover.mp4", img: "ee2.webp", title: "100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024", href: "/work/detail/vkfest", desc: "Обновила мобильное приложение фестиваля под новый фирменный стиль в сжатый срок, держа дизайн в синхроне с параллельно разрабатывавшимся брендингом." },
-          { video: "kidride-cover.mp4", img: "bb1.webp", title: "KidRide: приложение для водителей 45+", href: "/work/detail/kidride", desc: "Спроектировала приложение для водителей 45+ на основе глубинных интервью: крупный шрифт, тёмная тема, три действия на весь флоу поездки." },
+          { img: "consignment-cover.webp", title: "Редизайн формы бронирования: с 58 полей до 10 обязательных", href: "/work/detail/consignment-form", desc: "Разобралась, что реально нужно на этапе подачи заявки, и сократила форму с 58 полей до 10 обязательных." },
+          { video: "hubstr-cover.mp4", img: "gg1.webp", title: "Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma", href: "/work/detail/milan-portraits", desc: "Навела порядок в захламлённых макетах с помощью Claude Code. Адаптация под новый клуб сократилась с 6 часов до 30 минут." },
+          { img: "alcohol-retail-cover.webp", title: "Два приложения для алкогольной сети: B2C и B2B", href: "/work/detail/alcohol-retail", desc: "Спроектировала два приложения с нуля — B2C для покупателей и B2B для дистрибьютора — с разной логикой под разные задачи." },
+          { video: "bankruptcy-cover.mp4", img: "Container.webp", title: "Банкротство за несколько шагов: мобильное приложение для сложного процесса", href: "/work/detail/bankruptcy", desc: "Спроектировала мобильное приложение, которое ведёт пользователя через весь процесс банкротства — от договора до завершения процедуры." },
+          { img: "prism-1.png", title: "Сервис, который открывают раз в месяц: как сделать его понятным без инструкции", href: "/work/detail/prism", desc: "Спроектировала MVP сервиса аналитики, который должен работать без инструкции — аудитория открывает его раз в месяц." },
+          { video: "dmp-cover-3.mp4", img: "dmp-cover.webp", title: "DMP.ONE: CRM для лидогенерации с геймификацией", href: "/work/detail/dmp-one", desc: "Спроектировала CRM с нуля и переделала партнёрский кабинет: вместо голого рейтинга — уровни, миссии и прогресс, который понятен партнёру." },
+          { video: "vkfest-cover.mp4", img: "ee2.webp", title: "100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024", href: "/work/detail/vkfest", desc: "Обновила мобильное приложение фестиваля под новый фирменный стиль в сжатый срок, держа дизайн в синхроне с параллельно разрабатывавшимся брендингом." },
+          { video: "kidride-cover.mp4", img: "bb1.webp", title: "KidRide: приложение для водителей 45+", href: "/work/detail/kidride", desc: "Спроектировала приложение для водителей 45+ на основе глубинных интервью: крупный шрифт, тёмная тема, три действия на весь флоу поездки." },
         ].map(({ img, video, title, href, desc }) => (
           <section key={title}>
             <Container>

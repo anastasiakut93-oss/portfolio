@@ -13,8 +13,8 @@ const MilanPortraits = () => {
     <Fragment>
       <Layout
         step={step}
-        title="Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma"
-        description="Hubstr — редизайн дизайн-системы на переменных"
+        title="Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma"
+        description="Hubstr — редизайн дизайн-системы на переменных"
         navbar={true}
       >
         <section>
@@ -23,13 +23,13 @@ const MilanPortraits = () => {
               <Link href={"/"}>
                 <div className="flex items-center gap-2">
                   <img src={originalUrl + "Back.svg"} alt="" />
-                  <p className="opacity-40">На главную</p>
+                  <p className="opacity-40">На главную</p>
                 </div>
               </Link>
             </WrapAnimateUp>
 
             <WrapAnimateUp step={step}>
-              <h2 className="text__64 mt-[2rem]">Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma</h2>
+              <h2 className="text__64 mt-[2rem]">Запуск нового клуба за 2 часа вместо недели: что поменялось в Figma</h2>
             </WrapAnimateUp>
 
             <WrapAnimateUp step={step}>
@@ -41,6 +41,12 @@ const MilanPortraits = () => {
                 loop
                 playsInline
               />
+            </WrapAnimateUp>
+
+            <WrapAnimateUp step={step}>
+              <p className="text-[13px] sm:text-[16px] lg:text-[18px] italic opacity-60 text-center w-full mb-[3rem] md:mb-[6rem]">
+                Hubstr — внутренний продукт студии, мобильное приложение для бизнес-клубов и сообществ.
+              </p>
             </WrapAnimateUp>
 
             <div className="grid grid-cols-1 md:grid-cols-5 mb-[3rem] md:mb-[8rem]">
@@ -61,17 +67,20 @@ const MilanPortraits = () => {
 
             <div className="grid grid-cols-1 gap-[3rem] md:gap-[8rem]">
 
-              {/* ЗАДАЧА */}
+              {/* ПРОБЛЕМА */}
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Задача</p>
+                  <p className="text__24 opacity-40">Проблема</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Hubstr — внутренний продукт студии, мобильное приложение для бизнес-клубов и сообществ. Макеты копились с 2022 года: часть файлов потерялась, часть экранов появлялась вообще без дизайнера. Нужно было разобраться, что есть, и привести в состояние, с которым можно работать.
+                    Макеты копились с 2022 года: часть файлов потерялась, часть экранов появлялась вообще без дизайнера. Нужно было разобраться, что есть, и привести в состояние, с которым можно работать.
                   </h5>
                   <h5 className="text__32">
-                    Параллельно — системная проблема: каждый новый клуб требовал полной переработки под брендбук. Цвета, шрифты, компоненты — вручную, экран за экраном, около 6 часов. И всё равно что-то ловили на проде.
+                    Параллельно — системная проблема: каждый новый клуб требовал полной переработки под брендбук. Цвета, шрифты, компоненты — вручную, экран за экраном, около 6 часов. И всё равно что-то ловили на проде.
+                  </h5>
+                  <h5 className="text__32">
+                    Файлы были без системы вообще: цвета не в стилях, компоненты в группах, auto layout не использовался, а смена шрифта ломала вёрстку по всему файлу. Плагины немного ускоряли, но принципиально ничего не меняли — перекрашивать всё равно приходилось руками, экран за экраном.
                   </h5>
                 </div>
               </div>
@@ -83,14 +92,14 @@ const MilanPortraits = () => {
                 loading="lazy"
               />
 
-              {/* С ЧЕГО НАЧИНАЛИ */}
+              {/* С ЧЕГО НАЧАЛА */}
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">С чего начинали</p>
+                  <p className="text__24 opacity-40">С чего начала</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Файлы без системы вообще. Цвета не в стилях, компоненты в группах, auto layout не использовался. Смена шрифта ломала верстку по всему файлу. Плагины немного ускоряли, но принципиально ничего не меняли — перекрашивать всё равно приходилось руками, экран за экраном.
+                    Сначала собрала все экраны в один файл — просто чтобы понять, что вообще есть. Часть восстанавливала по скриншотам из продакшна, других источников не было.
                   </h5>
                 </div>
               </div>
@@ -102,17 +111,14 @@ const MilanPortraits = () => {
                 loading="lazy"
               />
 
-              {/* ЧТО СДЕЛАЛА */}
+              {/* ЧТО СДЕЛАЛА */}
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Что сделала</p>
+                  <p className="text__24 opacity-40">Что сделала</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Сначала собрала все экраны в один файл — просто чтобы понять, что вообще есть. Часть восстанавливала по скриншотам из продакшна, других источников не было.
-                  </h5>
-                  <h5 className="text__32">
-                    Дальше аудит и перестройка: атомарные элементы, компоненты с правильными вариантами, переменные для цветов и типографики. Рутинные части — проверку именования, поиск несоответствий — делала с Claude через Figma MCP. То, что руками заняло бы пару часов, закрывалось за 15 минут.
+                    Дальше аудит и перестройка: атомарные элементы, компоненты с правильными вариантами, переменные для цветов и типографики. Рутинные части — проверку именования, поиск несоответствий — делала с Claude через Figma MCP. То, что руками заняло бы пару часов, закрывалось за 15 минут.
                   </h5>
                 </div>
               </div>
@@ -124,17 +130,17 @@ const MilanPortraits = () => {
                 loading="lazy"
               />
 
-              {/* КАК ЭТО РАБОТАЕТ ТЕПЕРЬ */}
+              {/* РЕЗУЛЬТАТ */}
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Как это работает теперь</p>
+                  <p className="text__24 opacity-40">Результат</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Теперь когда приходит новый клуб с брендбуком, меняю значения переменных — цвета, шрифты, радиусы — и смотрю результат глазами. Полчаса вместо шести часов.
+                    Теперь когда приходит новый клуб с брендбуком, меняю значения переменных — цвета, шрифты, радиусы — и смотрю результат глазами. Полчаса вместо шести часов.
                   </h5>
                   <h5 className="text__32">
-                    Разработчики забирают переменные через Figma MCP напрямую в код. Запуск клуба занимает 2 часа там, где раньше уходила неделя.
+                    Разработчики забирают переменные через Figma MCP напрямую в код. Запуск клуба занимает 2 часа там, где раньше уходила неделя.
                   </h5>
                 </div>
               </div>
@@ -145,11 +151,11 @@ const MilanPortraits = () => {
 
         <section>
           <Container>
-            <Link href="/work/detail/consignment-form" className="group block border-t !border-Mneutral_200 pt-8">
+            <Link href="/work/detail/alcohol-retail" className="group block border-t !border-Mneutral_200 pt-8">
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <p className="text__18 opacity-40 mb-2">Следующий проект</p>
-                  <h5 className="text__40">Редизайн формы бронирования: с 58 полей до 10 обязательных</h5>
+                  <h5 className="text__40">Два приложения для алкогольной сети: B2C и B2B</h5>
                 </div>
                 <div className="relative overflow-hidden w-10 h-10 shrink-0 ml-8">
                   <img
@@ -165,7 +171,7 @@ const MilanPortraits = () => {
                 </div>
               </div>
               <img
-                src={originalUrl + "consignment-cover.webp"}
+                src={originalUrl + "alcohol-retail-cover.webp"}
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
