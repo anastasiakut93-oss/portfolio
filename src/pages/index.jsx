@@ -124,7 +124,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="text-center md:hidden mt-[24px]">
+            <div className="text-left md:hidden mt-[24px]">
               <a
                 href="https://t.me/ankutina"
                 target="_blank"
