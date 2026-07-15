@@ -128,7 +128,7 @@ const DmpOne = () => {
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <p className="text__18 opacity-40 mb-2">Следующий проект</p>
-                  <h5 className="text__40">100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024</h5>
+                  <h5 className="text__40">VK Fest: редизайн мобильного приложения под новый фирменный стиль</h5>
                 </div>
                 <div className="relative overflow-hidden w-10 h-10 shrink-0 ml-8">
                   <img

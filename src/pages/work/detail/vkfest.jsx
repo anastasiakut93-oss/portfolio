@@ -14,8 +14,8 @@ const VkFest = () => {
     <Fragment>
       <Layout
         step={step}
-        title="100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024"
-        description="VK Fest 2024 — мобильное приложение"
+        title="VK Fest: редизайн мобильного приложения под новый фирменный стиль"
+        description="VK Fest — редизайн мобильного приложения под новый фирменный стиль"
         navbar={true}
       >
         <section>
@@ -30,7 +30,7 @@ const VkFest = () => {
             </WrapAnimateUp>
 
             <WrapAnimateUp step={step}>
-              <h2 className="text__64 mt-[2rem]">100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024</h2>
+              <h2 className="text__64 mt-[2rem]">VK Fest: редизайн мобильного приложения под новый фирменный стиль</h2>
             </WrapAnimateUp>
 
             <WrapAnimateUp step={step}>
@@ -55,20 +55,12 @@ const VkFest = () => {
               <div className="md:col-span-3">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="pt-6">
-                    <p className="text__32 font-bold">100К+</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">пользователей</p>
+                    <p className="text__32 font-bold">4 месяца</p>
+                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">от старта до релиза в проде</p>
                   </div>
                   <div className="pt-6">
-                    <p className="text__32 font-bold">Топ-1</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">в категории «Мероприятия» в Google Play</p>
-                  </div>
-                  <div className="border-t !border-Mneutral_200 pt-6">
-                    <p className="text__32 font-bold">Топ-2</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">в категории «Мероприятия» в App Store</p>
-                  </div>
-                  <div className="border-t !border-Mneutral_200 pt-6">
-                    <p className="text__32 font-bold">Топ-35</p>
-                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">среди всех бесплатных приложений в России</p>
+                    <p className="text__32 font-bold">2025</p>
+                    <p className="text-[13px] sm:text-[16px] lg:text-[18px] opacity-60 mt-1">продолжили сотрудничество на новый сезон</p>
                   </div>
                 </div>
               </div>
@@ -88,7 +80,7 @@ const VkFest = () => {
               </div>
 
               <img
-                src={originalUrl + "vkfest-2.webp"}
+                src={originalUrl + "vkfest-4.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -100,7 +92,25 @@ const VkFest = () => {
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Начала с нового фирменного стиля, который разрабатывался параллельно с приложением, — синхронизировала дизайн с брендингом на ходу, хотя условия были не идеальные.
+                    Фирменный стиль разрабатывался параллельно с приложением, поэтому с самого начала работала в связке с маркетологами: синхронизировала дизайн с брендингом на ходу, уточняла детали по мере того, как утверждались новые гайдлайны.
+                  </h5>
+                </div>
+              </div>
+
+              <img
+                src={originalUrl + "vkfest-2.webp"}
+                className="w-full object-cover rounded-2xl"
+                alt=""
+                loading="lazy"
+              />
+
+              <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
+                <div className="md:col-span-2">
+                  <p className="text__24 opacity-40">Что сделала</p>
+                </div>
+                <div className="md:col-span-3 space-y-6">
+                  <h5 className="text__32">
+                    Проанализировала, что самое важное должен увидеть пользователь на фестивале: в полевых условиях нельзя заставлять человека долго что-то искать. Сделала крупные, заметные плашки в меню и ярко подсветила артистов, которые скоро выступают, — чтобы нужное считывалось с одного взгляда, а не терялось в списке.
                   </h5>
                 </div>
               </div>
@@ -114,11 +124,11 @@ const VkFest = () => {
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Что сделала</p>
+                  <p className="text__24 opacity-40">Результат</p>
                 </div>
                 <div className="md:col-span-3 space-y-6">
                   <h5 className="text__32">
-                    Спроектировала UX и UI под новый фирменный стиль. Провела тестирование макетов и дизайн-ревью с командой.
+                    Приложение вышло в прод за 4 месяца, ни разу не упало во время фестиваля, и пользователи не жаловались на проблемы с юзабилити. В 2025 году продолжили совместную работу: концепт для нового сезона подготовила студия Артемия Лебедева, а я адаптировала его под разработку.
                   </h5>
                 </div>
               </div>
@@ -129,17 +139,6 @@ const VkFest = () => {
                 alt=""
                 loading="lazy"
               />
-
-              <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
-                <div className="md:col-span-2">
-                  <p className="text__24 opacity-40">Результат</p>
-                </div>
-                <div className="md:col-span-3 space-y-6">
-                  <h5 className="text__32">
-                    Приложение вышло в срок, показатели в сторах оказались сильными. Заказчик подписал контракт на следующий год.
-                  </h5>
-                </div>
-              </div>
 
             </div>
           </Container>

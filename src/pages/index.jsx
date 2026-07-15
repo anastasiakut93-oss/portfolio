@@ -24,7 +24,7 @@ const Index = () => {
       >
 
 
-        <section className="h-[90vh] md:h-[80vh] pt-[40px] md:pt-0 pb-[40px] md:pb-[80px]">
+        <section className="min-h-[90vh] md:min-h-[80vh] pt-[40px] md:pt-0 pb-[40px] md:pb-[80px]">
           <Container>
             <svg
               className="w-full md:max-w-[88%] md:mx-auto block"
@@ -148,7 +148,7 @@ const Index = () => {
           { video: "bankruptcy-cover.mp4", img: "Container.webp", title: "Банкротство за несколько шагов: мобильное приложение для сложного процесса", href: "/work/detail/bankruptcy", desc: "Спроектировала мобильное приложение, которое ведёт пользователя через весь процесс банкротства — от договора до завершения процедуры." },
           { img: "prism-1.png", title: "Сервис, который открывают раз в месяц: как сделать его понятным без инструкции", href: "/work/detail/prism", desc: "Спроектировала MVP сервиса аналитики, который должен работать без инструкции — аудитория открывает его раз в месяц." },
           { video: "dmp-cover-3.mp4", img: "dmp-cover.webp", title: "DMP.ONE: CRM для лидогенерации с геймификацией", href: "/work/detail/dmp-one", desc: "Спроектировала CRM с нуля и переделала партнёрский кабинет: вместо голого рейтинга — уровни, миссии и прогресс, который понятен партнёру." },
-          { video: "vkfest-cover.mp4", img: "ee2.webp", title: "100К пользователей и Топ-1 в Google Play: приложение VK Fest 2024", href: "/work/detail/vkfest", desc: "Обновила мобильное приложение фестиваля под новый фирменный стиль в сжатый срок, держа дизайн в синхроне с параллельно разрабатывавшимся брендингом." },
+          { video: "vkfest-cover.mp4", img: "ee2.webp", title: "VK Fest: редизайн мобильного приложения под новый фирменный стиль", href: "/work/detail/vkfest", desc: "Обновила мобильное приложение фестиваля под новый фирменный стиль, работая в связке с маркетологами, которые параллельно вели брендинг." },
           { video: "kidride-cover.mp4", img: "bb1.webp", title: "KidRide: приложение для водителей 45+", href: "/work/detail/kidride", desc: "Спроектировала приложение для водителей 45+ на основе глубинных интервью: крупный шрифт, тёмная тема, три действия на весь флоу поездки." },
         ].map(({ img, video, title, href, desc }) => (
           <section key={title}>

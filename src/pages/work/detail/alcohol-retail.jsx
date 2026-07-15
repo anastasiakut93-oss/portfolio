@@ -84,12 +84,21 @@ const AlcoholRetail = () => {
                 </div>
               </div>
 
-              <img
-                src={originalUrl + "alcohol-retail-cjm.webp"}
-                className="w-full object-cover rounded-2xl"
-                alt=""
-                loading="lazy"
-              />
+              <div className="grid grid-cols-1 gap-4">
+                <img
+                  src={originalUrl + "alcohol-retail-cjm.webp"}
+                  className="w-full object-cover rounded-2xl"
+                  alt=""
+                  loading="lazy"
+                />
+
+                <img
+                  src={originalUrl + "alcohol-retail-4.webp"}
+                  className="w-full object-cover rounded-2xl"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
 
               <div className="grid gap-y-6 grid-cols-1 md:grid-cols-5">
                 <div className="md:col-span-2">
@@ -103,7 +112,7 @@ const AlcoholRetail = () => {
               </div>
 
               <img
-                src={originalUrl + "alcohol-retail-3.webp"}
+                src={originalUrl + "alcohol-retail-5.webp"}
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -143,6 +152,13 @@ const AlcoholRetail = () => {
                   </h5>
                 </div>
               </div>
+
+              <img
+                src={originalUrl + "alcohol-retail-3.webp"}
+                className="w-full object-cover rounded-2xl"
+                alt=""
+                loading="lazy"
+              />
 
             </div>
           </Container>
