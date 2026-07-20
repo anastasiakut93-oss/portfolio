@@ -64,6 +64,8 @@ const Bankruptcy = () => {
 
               <img
                 src={originalUrl + "bankruptcy-process.webp"}
+                srcSet={`${originalUrl}bankruptcy-process-800.webp 800w, ${originalUrl}bankruptcy-process-1600.webp 1600w, ${originalUrl}bankruptcy-process.webp 2200w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -82,6 +84,8 @@ const Bankruptcy = () => {
 
               <img
                 src={originalUrl + "bankruptcy-2.webp"}
+                srcSet={`${originalUrl}bankruptcy-2-800.webp 800w, ${originalUrl}bankruptcy-2-1600.webp 1600w, ${originalUrl}bankruptcy-2.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -109,6 +113,8 @@ const Bankruptcy = () => {
 
               <img
                 src={originalUrl + "bankruptcy-3.webp"}
+                srcSet={`${originalUrl}bankruptcy-3-800.webp 800w, ${originalUrl}bankruptcy-3-1600.webp 1600w, ${originalUrl}bankruptcy-3.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -151,6 +157,8 @@ const Bankruptcy = () => {
               </div>
               <img
                 src={originalUrl + "prism-1.png"}
+                srcSet={`${originalUrl}prism-1-800.webp 800w, ${originalUrl}prism-1-1600.webp 1600w, ${originalUrl}prism-1.png 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
