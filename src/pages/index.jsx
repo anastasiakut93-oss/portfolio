@@ -104,6 +104,8 @@ const Index = () => {
                 >
                   <img
                     src={originalUrl + "hero-photo.webp"}
+                    srcSet={`${originalUrl}hero-photo-800.webp 800w, ${originalUrl}hero-photo-1600.webp 1600w, ${originalUrl}hero-photo.webp 1870w`}
+                    sizes="260px"
                     className="w-full object-cover"
                     alt=""
                   />
@@ -158,7 +160,14 @@ const Index = () => {
                   {video ? (
                     <LazyVideo src={originalUrl + video} className="w-full aspect-[3/2] object-cover rounded-2xl" />
                   ) : (
-                    <img src={originalUrl + img} className="w-full aspect-[3/2] object-cover rounded-2xl" alt={title} loading="lazy" />
+                    <img
+                      src={originalUrl + img}
+                      srcSet={`${originalUrl}${img.replace(/\.(webp|png|jpe?g)$/, "")}-800.webp 800w, ${originalUrl}${img.replace(/\.(webp|png|jpe?g)$/, "")}-1600.webp 1600w, ${originalUrl}${img} 3240w`}
+                      sizes="(min-width: 1024px) 760px, 100vw"
+                      className="w-full aspect-[3/2] object-cover rounded-2xl"
+                      alt={title}
+                      loading="lazy"
+                    />
                   )}
                 </div>
                 <div className="lg:pl-8">
