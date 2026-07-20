@@ -94,6 +94,8 @@ const KidRide = () => {
 
               <img
                 src={originalUrl + "kidride-2.webp"}
+                srcSet={`${originalUrl}kidride-2-800.webp 800w, ${originalUrl}kidride-2-1600.webp 1600w, ${originalUrl}kidride-2.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -118,6 +120,8 @@ const KidRide = () => {
 
               <img
                 src={originalUrl + "kidride-1.webp"}
+                srcSet={`${originalUrl}kidride-1-800.webp 800w, ${originalUrl}kidride-1-1600.webp 1600w, ${originalUrl}kidride-1.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -163,6 +167,8 @@ const KidRide = () => {
               </div>
               <img
                 src={originalUrl + "consignment-cover.webp"}
+                srcSet={`${originalUrl}consignment-cover-800.webp 800w, ${originalUrl}consignment-cover-1600.webp 1600w, ${originalUrl}consignment-cover.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
