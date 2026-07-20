@@ -36,6 +36,8 @@ const Prism = () => {
             <WrapAnimateUp step={step}>
               <img
                 src={originalUrl + "prism-1.png"}
+                srcSet={`${originalUrl}prism-1-800.webp 800w, ${originalUrl}prism-1-1600.webp 1600w, ${originalUrl}prism-1.png 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[2rem] md:mb-[4rem]"
                 alt=""
               />
@@ -81,6 +83,8 @@ const Prism = () => {
 
               <img
                 src={originalUrl + "prism-research.webp"}
+                srcSet={`${originalUrl}prism-research-800.webp 800w, ${originalUrl}prism-research-1600.webp 1600w, ${originalUrl}prism-research.webp 2200w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -105,6 +109,8 @@ const Prism = () => {
 
               <img
                 src={originalUrl + "prism-2.webp"}
+                srcSet={`${originalUrl}prism-2-800.webp 800w, ${originalUrl}prism-2-1600.webp 1600w, ${originalUrl}prism-2.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -129,6 +135,8 @@ const Prism = () => {
 
               <img
                 src={originalUrl + "prism-4.webp"}
+                srcSet={`${originalUrl}prism-4-800.webp 800w, ${originalUrl}prism-4-1600.webp 1600w, ${originalUrl}prism-4.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
