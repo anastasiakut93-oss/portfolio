@@ -87,6 +87,8 @@ const MilanPortraits = () => {
 
               <img
                 src={originalUrl + "hubstr-3.webp"}
+                srcSet={`${originalUrl}hubstr-3-800.webp 800w, ${originalUrl}hubstr-3-1600.webp 1600w, ${originalUrl}hubstr-3.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -106,6 +108,8 @@ const MilanPortraits = () => {
 
               <img
                 src={originalUrl + "hubstr-2.webp"}
+                srcSet={`${originalUrl}hubstr-2-800.webp 800w, ${originalUrl}hubstr-2-1600.webp 1600w, ${originalUrl}hubstr-2.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -125,6 +129,8 @@ const MilanPortraits = () => {
 
               <img
                 src={originalUrl + "hubstr-1.webp"}
+                srcSet={`${originalUrl}hubstr-1-800.webp 800w, ${originalUrl}hubstr-1-1600.webp 1600w, ${originalUrl}hubstr-1.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -172,6 +178,8 @@ const MilanPortraits = () => {
               </div>
               <img
                 src={originalUrl + "alcohol-retail-cover.webp"}
+                srcSet={`${originalUrl}alcohol-retail-cover-800.webp 800w, ${originalUrl}alcohol-retail-cover-1600.webp 1600w, ${originalUrl}alcohol-retail-cover.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full aspect-[3/2] object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
