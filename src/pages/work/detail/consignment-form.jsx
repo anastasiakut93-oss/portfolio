@@ -36,6 +36,8 @@ const ConsignmentForm = () => {
             <WrapAnimateUp step={step}>
               <img
                 src={originalUrl + "consignment-cover.webp"}
+                srcSet={`${originalUrl}consignment-cover-800.webp 800w, ${originalUrl}consignment-cover-1600.webp 1600w, ${originalUrl}consignment-cover.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[2rem] md:mb-[4rem]"
                 alt=""
               />
@@ -102,6 +104,8 @@ const ConsignmentForm = () => {
 
               <img
                 src={originalUrl + "consignment-1.webp"}
+                srcSet={`${originalUrl}consignment-1-800.webp 800w, ${originalUrl}consignment-1-1600.webp 1600w, ${originalUrl}consignment-1.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -121,6 +125,8 @@ const ConsignmentForm = () => {
 
               <img
                 src={originalUrl + "consignment-2.webp"}
+                srcSet={`${originalUrl}consignment-2-800.webp 800w, ${originalUrl}consignment-2-1600.webp 1600w, ${originalUrl}consignment-2.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
