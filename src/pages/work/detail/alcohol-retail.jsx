@@ -36,6 +36,8 @@ const AlcoholRetail = () => {
             <WrapAnimateUp step={step}>
               <img
                 src={originalUrl + "alcohol-retail-cover.webp"}
+                srcSet={`${originalUrl}alcohol-retail-cover-800.webp 800w, ${originalUrl}alcohol-retail-cover-1600.webp 1600w, ${originalUrl}alcohol-retail-cover.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full aspect-[3/2] object-cover rounded-2xl mt-[2rem] mb-[2rem] md:mb-[4rem]"
                 alt=""
               />
@@ -87,6 +89,8 @@ const AlcoholRetail = () => {
               <div className="grid grid-cols-1 gap-4">
                 <img
                   src={originalUrl + "alcohol-retail-cjm.webp"}
+                  srcSet={`${originalUrl}alcohol-retail-cjm-800.webp 800w, ${originalUrl}alcohol-retail-cjm-1600.webp 1600w, ${originalUrl}alcohol-retail-cjm.webp 2200w`}
+                  sizes="(min-width: 1200px) 1140px, 100vw"
                   className="w-full object-cover rounded-2xl"
                   alt=""
                   loading="lazy"
@@ -94,6 +98,8 @@ const AlcoholRetail = () => {
 
                 <img
                   src={originalUrl + "alcohol-retail-4.webp"}
+                  srcSet={`${originalUrl}alcohol-retail-4-800.webp 800w, ${originalUrl}alcohol-retail-4-1600.webp 1600w, ${originalUrl}alcohol-retail-4.webp 1997w`}
+                  sizes="(min-width: 1200px) 1140px, 100vw"
                   className="w-full object-cover rounded-2xl"
                   alt=""
                   loading="lazy"
@@ -113,6 +119,8 @@ const AlcoholRetail = () => {
 
               <img
                 src={originalUrl + "alcohol-retail-5.webp"}
+                srcSet={`${originalUrl}alcohol-retail-5-800.webp 800w, ${originalUrl}alcohol-retail-5-1600.webp 1600w, ${originalUrl}alcohol-retail-5.webp 1999w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -137,6 +145,8 @@ const AlcoholRetail = () => {
 
               <img
                 src={originalUrl + "alcohol-retail-1.webp"}
+                srcSet={`${originalUrl}alcohol-retail-1-800.webp 800w, ${originalUrl}alcohol-retail-1-1600.webp 1600w, ${originalUrl}alcohol-retail-1.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -155,6 +165,8 @@ const AlcoholRetail = () => {
 
               <img
                 src={originalUrl + "alcohol-retail-3.webp"}
+                srcSet={`${originalUrl}alcohol-retail-3-800.webp 800w, ${originalUrl}alcohol-retail-3-1600.webp 1600w, ${originalUrl}alcohol-retail-3.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
