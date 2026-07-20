@@ -81,6 +81,8 @@ const VkFest = () => {
 
               <img
                 src={originalUrl + "vkfest-4.webp"}
+                srcSet={`${originalUrl}vkfest-4-800.webp 800w, ${originalUrl}vkfest-4-1600.webp 1600w, ${originalUrl}vkfest-4.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -99,6 +101,8 @@ const VkFest = () => {
 
               <img
                 src={originalUrl + "vkfest-2.webp"}
+                srcSet={`${originalUrl}vkfest-2-800.webp 800w, ${originalUrl}vkfest-2-1600.webp 1600w, ${originalUrl}vkfest-2.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -117,6 +121,8 @@ const VkFest = () => {
 
               <img
                 src={originalUrl + "vkfest-1.webp"}
+                srcSet={`${originalUrl}vkfest-1-800.webp 800w, ${originalUrl}vkfest-1-1600.webp 1600w, ${originalUrl}vkfest-1.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
@@ -135,6 +141,8 @@ const VkFest = () => {
 
               <img
                 src={originalUrl + "vkfest-3.webp"}
+                srcSet={`${originalUrl}vkfest-3-800.webp 800w, ${originalUrl}vkfest-3-1600.webp 1600w, ${originalUrl}vkfest-3.webp 3240w`}
+                sizes="(min-width: 1200px) 1140px, 100vw"
                 className="w-full object-cover rounded-2xl"
                 alt=""
                 loading="lazy"
